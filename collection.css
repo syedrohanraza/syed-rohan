@@ -1,0 +1,55 @@
+/* Collections Page Specific Styles */
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.collection-category {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.collection-category:hover {
+    transform: translateY(-10px);
+}
+
+.collection-category img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.collection-category h2 {
+    padding: 20px;
+    color: #1a1a1a;
+    font-size: 24px;
+    text-align: center;
+}
+
+.collection-category p {
+    padding: 0 20px 20px;
+    color: #666;
+    text-align: center;
+}
+
+.view-collection {
+    display: block;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: #c5a880;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.view-collection:hover {
+    background-color: #b39671;
+}
